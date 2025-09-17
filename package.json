@@ -4,6 +4,7 @@
   "description": "Core JS Strings",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write .",
     "test": "npm run lint && mocha",
     "lint": "node node_modules/eslint/bin/eslint.js ./src",
     "lint:fix": "node node_modules/eslint/bin/eslint.js ./src --fix"
@@ -20,7 +21,7 @@
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",
     "mocha": "^10.8.2",
-    "prettier": "^3.5.3"
+    "prettier": "^3.6.2"
   },
   "bugs": {
     "url": "https://github.com/rolling-scopes-school/core-js-strings/issues"
