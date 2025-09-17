@@ -151,7 +151,7 @@ function repeatString(str, times) {
  *   removeFirstOccurrences('ABABAB', 'BA') => 'ABAB'.
  */
 function removeFirstOccurrences(/* str, value */) {
-
+  throw new Error('Not implemented');
 }
 
 /**
